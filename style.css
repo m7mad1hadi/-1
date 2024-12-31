@@ -1,0 +1,126 @@
+*{
+    background-color: #222;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    flex-grow: 1;
+}
+ul {
+    list-style: none;
+    display: inline-flex;
+    gap: 30px;
+}
+ul a {
+    text-decoration: none;
+    font-size: 25px;
+    transition: all 1s;
+}
+ul a:hover {
+    color: #666;
+}
+main {
+    padding-top: 150px;
+}
+.main-text-h1 {
+    text-align: center;
+}
+.main-text-p {
+    text-align: center;
+    font-size: 24px;
+}
+.button  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.button button {
+    border: 1px solid white ;
+    outline: none;
+    padding: 20px;
+    border-radius: 20px;
+    transition: all 0.7s;
+    font-size: 17px;
+}
+.button button:hover  {
+    color: #222;
+    background-color: white;
+    border: 1px solid #666;
+}
+.fada {
+    padding-top: 200px;
+    text-align: center;
+    flex-grow: 1;
+}
+.fada-2 {
+    margin: 20px;
+}
+.fada-2 p{
+    font-size: large;
+    margin: 35px;
+}
+.do3a {
+    padding-top: 200px;
+    text-align: center;
+    line-height: 250%;
+    word-spacing: 5px;
+    flex-grow: 1;
+}
+.fada-3 {
+    font-size: 25px;
+    gap: 5px    ;
+    margin: 20px;
+    flex-grow: 1;
+}
+.main-masa {
+    padding-top: 100px;
+    text-align: center;
+}
+.masa-text {
+    margin: 35px;
+    font-size: 25px;
+}
+.copyright {
+    background-color: white;
+    color: #111;
+    text-align: center;
+    margin: 35px;
+    padding: 25px;
+}
+.audio-con {
+    padding-top: 100px;
+}
+.mohsen-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.basem-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.audio  h1 {
+    text-align: center;
+    flex-grow: 1;
+}
+.audio .mohsen {
+    margin: 35px;
+}
+.audio-2 h1 {
+    text-align: center;
+    flex-grow: 1;
+}
+.audio-2 .basem {
+    margin: 35px;   
+}
